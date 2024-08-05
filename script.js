@@ -10,12 +10,7 @@ $(document).ready(function () {
   });
 });
 
-document.getElementById("tombol-about1").onclick = function () {
-  Swal.fire(
-    "Jadwal Mata Pelajaran",
-    "Proyek ini adalah sebuah aplikasi jadwal mata pelajaran untuk kelas XII MIPA 4. Aplikasi ini bertujuan untuk membantu siswa dan guru dalam mengatur waktu dan mengakses jadwal pelajaran dengan mudah. Dengan fitur-fitur interaktifnya, pengguna dapat dengan cepat melihat jadwal pelajaran, guru yang mengajar, serta ruangan kelas yang digunakan untuk setiap mata pelajaran. Proyek ini memberikan solusi yang praktis untuk manajemen jadwal di lingkungan pendidikan."
-  );
-};
+
 
 
 const sr = ScrollReveal({
