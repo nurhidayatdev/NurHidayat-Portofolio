@@ -25,3 +25,4 @@ sr.reveal(".animation-text1", { delay: 100 });
 sr.reveal(".animation-text2", { delay: 150 });
 sr.reveal(".animation-button", { delay: 200 });
 sr.reveal(".bg-project", { delay: 100 });
+sr.reveal(".bg-certification", { delay: 100 });

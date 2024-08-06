@@ -215,7 +215,7 @@ section {
   margin-bottom: 40px;
 }
 .hero-text h1 {
-  font-family: 'Poppins', Sans-Serif;
+  font-family: 'Permanent marker', cursive;
   font-weight: 800;
   font-size: 90px;
   line-height: 1;
@@ -372,7 +372,7 @@ section {
     padding: 0 15px;
   }
   .hero-text h1 {
-    font-size: 40px;
+    font-size: 70px;
   }
   .hero-img img {
     padding-top: 100px;
@@ -402,7 +402,7 @@ section {
     padding: 0 10px;
   }
   .hero-text h1 {
-    font-size: 40px;
+    font-size: 70px;
   }
   .hero-img img {
     width: 200px;
@@ -503,24 +503,107 @@ ul {
 }
 a {
   color: #181535;
+  text-decoration: none;
 }
 
 /* SECTION */
 .about {
     background-color: #181535;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
   }
+  
+  
   .project {
     margin: 0;
-    padding: 0;
+    padding: 2rem;
     background-color: white;
   }
+  .section-project {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 20px;
+   
+  }
+  .img-project {
+    width: 70%;
+    
+  }
+  .textProject {
+    color: #fff;
+    font-family: "Poppins", Sans-Serif;
+    font-size: 20px;
+    padding-top: 1rem;
+  }
+  .bg-project {
+    text-align: center;
+    height: 320px;
+    width: 320px;
+    background-color: #181535;
+    margin: 10px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+  }
+  .textCertification {
+    color: #181535;
+    font-family: "Poppins", Sans-Serif;
+    font-size: 15px;
+    padding: 1rem;
+    
+  }
+  .bg-certification {
+    text-align: center;
+    height: 300px;
+    width: 320px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 20px;
+    background-size: 100% 100%;
+    margin-bottom: 50px;
+  }
+  .img-certification {
+    width: 90%;
+  }
+  
+  
+  @media (max-width: 990px)  {
+    .section-project {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 690px) {
+    .section-project {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .textProject {
+      font-size: 15px;
+    }
+    .img-project {
+      width: 70%;
+      
+    }
+    .bg-project {
+      height: 270px;
+      width: 270px;
+    }
+  }
+  
+  
+  
   .certificate {
     background-color: #181535;
     margin: 0;
-    padding: 0;
+    padding: 2rem;
   }
+  
+  
   
 .section-content {
   display: flex;
@@ -565,6 +648,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  padding: 1rem;
 }
 
 .footer-content h1 {
@@ -578,7 +662,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1rem 0 3rem 0;
+  margin: 0.5rem 0 1rem 0;
 }
 .socials li {
   margin: 0 10px;
