@@ -10,7 +10,7 @@
   <h3 align="center">Nur Hidayat | Portofolio</h3>
 
   <p align="center">
-    Website project HTML, CSS and JavaScript programming languages
+    Website Portofolio Nur Hidayat
     <br />
     <a href="https://github.com/YayaProject/NurHidayat-Portofolio"><strong>Explore the docs »</strong></a>
     <br />
@@ -44,7 +44,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-"Yaya Project " is a simple website created to increase knowledge about programming languages. This website only consists of three programming languages, namely HTML, CSS and JavaScript. This website also contains various projects originating from various case studies
+"Nur Hidayat | Portofolio" is a simple website created to increase knowledge about programming languages. This website only consists of three programming languages, namely HTML, CSS and JavaScript. This website also contains various projects originating from various case studies
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
