@@ -56,16 +56,6 @@ Of course, no one template will serve all projects since your needs may be diffe
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-
-
-
-
-
-
-
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -74,7 +64,7 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 Nur Hidayat - [@yayaa7._](https://www.instagram.com/yayaa7._) - nurhidayat120706@gmail.com
 
-Project Link: [https://github.com/YayaProject/YayaProject](https://github.com/YayaProject/NurHidayat-Portofolio)
+Project Link: [https://github.com/YayaProject/NurHidayat-Portofolio](https://github.com/YayaProject/NurHidayat-Portofolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
