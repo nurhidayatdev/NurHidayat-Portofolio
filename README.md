@@ -32,7 +32,6 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
@@ -66,15 +65,6 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 
 
-## Roadmap
-
-- [x] Add Responsif
-- [x] Add some project
-- [ ] Update all projects
-- [ ] Add info of each project
-
-
-See the [open issues](https://github.com/YayaProject/YayaProject/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,9 +72,9 @@ See the [open issues](https://github.com/YayaProject/YayaProject/issues) for a f
 
 ## Contact
 
-Nurhidayat - [@yaya_project12](https://www.instagram.com/yaya_project12/) - yayagm0712@gmail.com
+Nur Hidayat - [@yayaa7._](https://www.instagram.com/yayaa7._) - nurhidayat120706@gmail.com
 
-Project Link: [https://github.com/YayaProject/YayaProject](https://github.com/YayaProject/YayaProject)
+Project Link: [https://github.com/YayaProject/YayaProject](https://github.com/YayaProject/NurHidayat-Portofolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -108,13 +98,13 @@ Use this space to list resources you find helpful and would like to give credit 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/YayaProject/YayaProject.svg?style=for-the-badge
-[contributors-url]: https://github.com/YayaProject/YayaProject/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/YayaProject/YayaProject.svg?style=for-the-badge
-[forks-url]: https://github.com/YayaProject/YayaProject/network/members
-[stars-shield]: https://img.shields.io/github/stars/YayaProject/YayaProject.svg?style=for-the-badge
-[stars-url]: https://github.com/YayaProject/YayaProject/stargazers
-[issues-shield]: https://img.shields.io/github/issues/YayaProject/YayaProject.svg?style=for-the-badge
-[issues-url]: https://github.com/YayaProject/YayaProject/issues
-[product-screenshot]: image/image-main/screenshot.png
+[contributors-shield]: https://img.shields.io/github/contributors/YayaProject/NurHidayat-Portofolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/YayaProject/NurHidayat-Portofolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/YayaProject/Nurhidayat-Portofolio.svg?style=for-the-badge
+[forks-url]: https://github.com/YayaProject/NurHidayat-Portofolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/YayaProject/NurHidayat-Portofolio.svg?style=for-the-badge
+[stars-url]: https://github.com/YayaProject/NurHidayat-Portofolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/YayaProject/NurHidayat-Portofolio.svg?style=for-the-badge
+[issues-url]: https://github.com/YayaProject/NurHidayat-Portofolio/issues
+[product-screenshot]: image/image-main/home-page.jpg
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
