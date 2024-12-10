@@ -1,326 +1,422 @@
 <!DOCTYPE html>
 <html lang="id" translate="no">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="theme-color" content="#181535" />
-    <title>Nur Hidayat | Portofolio</title>
-    <meta name="title" content="Nur Hidayat | Portofolio" />
-    <meta name="description" content="© 2024 Nur Hidayat" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://nurhidayat.netlify.app/" />
-    <meta property="og:title" content="Nur Hidayat | Portofolio" />
-    <meta property="og:description" content="© 2024 Nur Hidayat" />
-    <meta property="og:image" content="https://iili.io/d5IsV5X.md.png" />
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://nurhidayat.netlify.app/" />
-    <meta property="twitter:title" content="Nur Hidayat | Portofolio" />
-    <meta property="twitter:description" content="© 2024 Nur Hidayat" />
-    <meta property="twitter:image" content="https://iili.io/d5IsV5X.md.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
-      rel="stylesheet" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" href="image/image-main/icon.png" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <script src="jquery.js"></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-CGKTDTK7Y7"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="theme-color" content="#181535" />
+        <title>Nur Hidayat | Portofolio</title>
+        <meta name="title" content="Nur Hidayat | Portofolio" />
+        <meta name="description" content="© 2024 Nur Hidayat" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://nurhidayat.netlify.app/" />
+        <meta property="og:title" content="Nur Hidayat | Portofolio" />
+        <meta property="og:description" content="© 2024 Nur Hidayat" />
+        <meta property="og:image" content="https://iili.io/d5IsV5X.md.png" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta
+            property="twitter:url"
+            content="https://nurhidayat.netlify.app/"
+        />
+        <meta property="twitter:title" content="Nur Hidayat | Portofolio" />
+        <meta property="twitter:description" content="© 2024 Nur Hidayat" />
+        <meta
+            property="twitter:image"
+            content="https://iili.io/d5IsV5X.md.png"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link rel="icon" href="image/image-main/icon.png" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+        <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="jquery.js"></script>
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-CGKTDTK7Y7"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
 
-      gtag("config", "G-CGKTDTK7Y7");
-    </script>
-  </head>
+            gtag("config", "G-CGKTDTK7Y7");
+        </script>
+    </head>
 
-  <body>
-    <div id="home"></div>
-    <header>
-      <div class="logo"><span id="yaya-text">NUR</span> HIDAYAT</div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#home" class="non-active"
-              ><i class="fa-solid fa-house"></i> Home</a
-            >
-          </li>
-          <li>
-            <a href="#about" class="non-active"
-              ><i class="fa-solid fa-user"></i> About</a
-            >
-          </li>
-          <li>
-            <a href="#project" class="non-active"
-              ><i class="fa-solid fa-file"></i> Project</a
-            >
-          </li>
-          <li>
-            <a href="#certificate" class="non-active"
-              ><i class="fa-solid fa-image"></i> Certificate</a
-            >
-          </li>
-          <li>
-            <a href="#contact" class="non-active"
-              ><i class="fa-solid fa-phone"></i> Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <div class="menu-toggle">
-        <i class="fa-solid fa-bars"></i>
-      </div>
-    </header>
-    <section class="hero">
-      <div class="hero-img">
-        <img src="image/image-main/profile.png" alt="nur-hidayat" />
-      </div>
-      <div class="hero-text">
-        <div class="animation-text1">
-          <h1>NUR HIDAYAT</h1>
-        </div>
-        <div class="animation-text2">
-          <p>
-            Informatics and Computer Engineering Student | Web Development
-          </p>
-        </div>
-
-        <div class="animation-button">
-          <a href="#project" class="cta">Explore</a>
-          <a href="#" download class="ctaa"
-            ><i class="ri-play-fill"></i>Download CV</a
-          >
-        </div>
-      </div>
-    </section>
-
-    <div class="icons">
-      <a href="https://instagram.com/yaya_0712?igshid=OGQ5ZDc2ODk2ZA=="
-        ><i class="fab fa-instagram-square"></i
-      ></a>
-      <a href="https://linkedin.com/in/nurhidayat-yaya"
-        ><i class="fab fa-linkedin"></i
-      ></a>
-      <a href="https://wa.me/6287873520868"
-        ><i class="fab fa-whatsapp-square"></i
-      ></a>
-    </div>
-
-    <div class="scroll-down" id="scroll-down">
-      <a href="#scroll-down"><i class="fa-solid fa-caret-down"></i></a>
-    </div>
-
-    <div id="to-scroll"></div>
-
-    <section class="about" id="about">
-      <div class="section-content">
-        <div class="animation-text1">
-          <h1 class="about-text">ABOUT</h1>
-        </div>
-        <div class="animation-text2">
-          <p>
-            I am an active student majoring in Informatics and Computer
-            Engineering from Makassar State University with high enthusiasm in
-            the field of Web Development. I believe that a
-            combination of coding knowledge and skills is the key to success in
-            this digital era.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="project" id="project">
-      <div class="section-content">
-        <div class="animation-text1">
-          <h1>PROJECT</h1>
-        </div>
-
-        <div class="section-project">
-          
-            <div class="bg-project">
-              <a href="https://rata-rata-nilai.vercel.app/">
-              <h3 class="text-project">Rata-Rata Nilai</h3>
-              <h6 class="font-univ">
-                <i class="fa fa-clock-o"></i> 7 January 2024
-              </h6>
-            </a>
-              <img
-                class="img-project"
-                src="image/image-project/image-project-3.jpg"
-                align="center"
-                alt="rata-rata-nilai" />
-              <br />
+    <body>
+        <div id="home"></div>
+        <header>
+            <div class="logo"><span id="yaya-text">NUR</span> HIDAYAT</div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#home" class="non-active"
+                            ><i class="fa-solid fa-house"></i> Home</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#about" class="non-active"
+                            ><i class="fa-solid fa-user"></i> About</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#project" class="non-active"
+                            ><i class="fa-solid fa-file"></i> Project</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#certificate" class="non-active"
+                            ><i class="fa-solid fa-image"></i> Certificate</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#contact" class="non-active"
+                            ><i class="fa-solid fa-phone"></i> Contact</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
             </div>
-          
-            <div class="bg-project">
-              <a href="https://form-login-lovat.vercel.app/">
-                <h3 class="text-project">Form Login</h3>
-                <h6 class="font-univ">
-                  <i class="fa fa-clock-o"></i> 24 December 2022
-                </h6>
-              </a>
-              
-              <img
-                class="img-project"
-                src="image/image-project/image-project-2.jpg"
-                align="center"
-                alt="form-login" />
-              <br />
+        </header>
+        <section class="hero">
+            <div class="hero-img">
+                <img src="image/image-main/profile.png" alt="nur-hidayat" />
             </div>
-         
-            <div class="bg-project">
-              <a href="https://jadwal-mata-pelajaran.vercel.app/">
-                <h3 class="text-project">Jadwal Mata Pelajaran</h3>
-                <h6 class="font-univ">
-                  <i class="fa fa-clock-o"></i> 18 September 2022
-                </h6>
-              </a>
-              
-              <img
-                class="img-project"
-                src="image/image-project/image-project-1.jpg"
-                align="center"
-                alt="jadwal-mata-pelajaran" />
-              <br />
-            </div>
-         
-        </div>
-      </div>
-    </section>
+            <div class="hero-text">
+                <div class="animation-text1">
+                    <h1>NUR HIDAYAT</h1>
+                </div>
+                <div class="animation-text2">
+                    <p>
+                        Informatics and Computer Engineering Student | Web
+                        Development
+                    </p>
+                </div>
 
-    <section class="certificate" id="certificate">
-      <div class="section-content">
-        <div class="animation-text1">
-          <h1 class="certificate-text">CERTIFICATE</h1>
+                <div class="animation-button">
+                    <a href="#project" class="cta">Explore</a>
+                    <a href="#" download class="ctaa"
+                        ><i class="ri-play-fill"></i>Download CV</a
+                    >
+                </div>
+                <div id="about"></div>
+            </div>
+        </section>
+
+        <div class="icons">
+            <a href="https://instagram.com/yaya7._"
+                ><i class="fab fa-instagram-square"></i
+            ></a>
+            <a href="https://linkedin.com/in/nurhidayat-yaya"
+                ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://wa.me/6287816244448"
+                ><i class="fab fa-whatsapp-square"></i
+            ></a>
         </div>
 
-        <div class="section-project">
-          
-<div class="bg-certification">
-              <br />
-              <img
-                class="img-certification"
-                src="image/image-certificate/certificate-5.jpg"
-                align="center"
-                alt="belajar-dasar-pemrograman-web" />
-                <a
-                href="https://dicoding.com/certificates/N9ZOY68Q0PG5">
-              <h3 class="text-certification">
-                Belajar Dasar Pemrograman Web
-              </h3>
-            </a>
-            </div>
-
-<div class="bg-certification">
-              <br />
-              <img
-                class="img-certification"
-                src="image/image-certificate/certificate-4.jpg"
-                align="center"
-                alt="memulai-pemrograman-dengan-python" />
-                <a
-                href="https://dicoding.com/certificates/EYX4V5EGWZDL">
-              <h3 class="text-certification">
-                Memulai Pemrograman dengan Python
-              </h3>
-            </a>
-            </div>
-
-            <div class="bg-certification">
-              <br />
-              <img
-                class="img-certification"
-                src="image/image-certificate/certificate-3.jpg"
-                align="center"
-                alt="belajar-dasar-structured-query-language-(sql)" />
-                <a
-                href="https://dicoding.com/certificates/QLZ97G3GMP5D">
-              <h3 class="text-certification">
-                Belajar Dasar Structured Query Language (SQL)
-              </h3>
-            </a>
-            </div>
-          
-            <div class="bg-certification">
-              <br />
-              <img
-                class="img-certification"
-                src="image/image-certificate/certificate-2.jpg"
-                align="center"
-                alt="belajar-dasar-visualisasi-data" />
-                <a
-                href="https://dicoding.com/certificates/53XEO9JY0ZRN">
-              <h3 class="text-certification">Belajar Dasar Visualisasi Data</h3>
-            </a>
-            </div>
-          
-            <div class="bg-certification">
-              <br />
-              <img
-                class="img-certification"
-                src="image/image-certificate/certificate-1.jpg"
-                align="center"
-                alt="belajar-dasar-ai" />
-                <a
-                href="https://dicoding.com/certificates/N9ZOMQEGDPG5">
-              <h3 class="text-certification">Belajar Dasar AI</h3>
-            </a>
-            </div>
-          
-        </div>
-      </div>
-    </section>
-
-    <footer id="contact">
-      <div class="footer-content">
-        <div class="animation-text1">
-          <h1>CONTACT</h1>
+        <div class="scroll-down" id="scroll-down">
+            <a href="#scroll-down"><i class="fa-solid fa-caret-down"></i></a>
         </div>
 
-        <div class="animation-button">
-          <ul class="socials">
-            <li>
-              <a href="https://linkedin.com/in/nurhidayat-yaya"
-                ><i class="fa-brands fa-linkedin-in"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://wa.me/6287873520868"
-                ><i class="fab fa-whatsapp"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://tiktok.com/@yayaaa0712"
-                ><i class="fab fa-tiktok"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://instagram.com/yayaa7._"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://github.com/YayaProject"
-                ><i class="fab fa-github"></i
-              ></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>copyright &copy; 2024 Nur Hidayat</p>
-      </div>
-    </footer>
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="script.js" type="text/javascript"></script>
-  </body>
+        <div id="to-scroll"></div>
+
+        <section class="about">
+            <div class="section-content">
+                <div class="animation-text1">
+                    <h1 class="about-text">ABOUT</h1>
+                </div>
+                <div class="animation-text2">
+                    <p>
+                        I am an active student majoring in Informatics and
+                        Computer Engineering from Makassar State University with
+                        high enthusiasm in the field of Web Development. I
+                        believe that a combination of coding knowledge and
+                        skills is the key to success in this digital era.
+                    </p>
+                </div>
+            </div>
+            <div id="project"></div>
+        </section>
+
+        <section class="project">
+            <div class="section-content">
+                <div class="animation-text1">
+                    <h1>PROJECT</h1>
+                </div>
+
+                <div class="section-project">
+                    <!-- PROJECT 6 - SWEETHAVEN -->
+                    <div class="bg-project">
+                        <a
+                            href="https://sweethaven.vercel.app/"
+                            target="_blank"
+                        >
+                            <h3 class="text-project">SweetHaven</h3>
+                            <h6 class="font-univ">
+                                <i class="fa fa-clock-o"></i> 7 December 2024
+                            </h6>
+                        </a>
+                        <img
+                            class="img-project"
+                            src="image/image-project/image-project-6.jpg"
+                            align="center"
+                            alt="sweet-haven"
+                        />
+                        <br />
+                    </div>
+
+                    <!-- PROJECT 5 - HASIL TRY OUT SNBT -->
+                    <div class="bg-project">
+                        <a
+                            href="https://try-out-snbt.vercel.app/"
+                            target="_blank"
+                        >
+                            <h3 class="text-project">Hasil Try Out SNBT</h3>
+                            <h6 class="font-univ">
+                                <i class="fa fa-clock-o"></i> 2 April 2024
+                            </h6>
+                        </a>
+                        <img
+                            class="img-project"
+                            src="image/image-project/image-project-5.jpg"
+                            align="center"
+                            alt="hasil-try-out-SNBT"
+                        />
+                        <br />
+                    </div>
+
+                    <!-- PROJECT 4 - RATA-RATA NILAI -->
+                    <div class="bg-project">
+                        <a
+                            href="https://rata-rata-nilai.vercel.app/"
+                            target="_blank"
+                        >
+                            <h3 class="text-project">Rata-Rata Nilai</h3>
+                            <h6 class="font-univ">
+                                <i class="fa fa-clock-o"></i> 7 January 2024
+                            </h6>
+                        </a>
+                        <img
+                            class="img-project"
+                            src="image/image-project/image-project-4.jpg"
+                            align="center"
+                            alt="rata-rata-nilai"
+                        />
+                        <br />
+                    </div>
+
+                    <!-- PROJECT 3 - LAPORAN BIOLOGI -->
+                    <div class="bg-project">
+                        <a
+                            href="https://proyek-biologi.vercel.app/"
+                            target="_blank"
+                        >
+                            <h3 class="text-project">Laporan Biologi</h3>
+                            <h6 class="font-univ">
+                                <i class="fa fa-clock-o"></i> 21 August 2023
+                            </h6>
+                        </a>
+                        <img
+                            class="img-project"
+                            src="image/image-project/image-project-3.jpg"
+                            align="center"
+                            alt="laporan-biologi"
+                        />
+                        <br />
+                    </div>
+
+                    <!-- PROJECT 2 - FORM LOGIN -->
+                    <div class="bg-project">
+                        <a
+                            href="https://form-login-lovat.vercel.app/"
+                            target="_blank"
+                        >
+                            <h3 class="text-project">Form Login</h3>
+                            <h6 class="font-univ">
+                                <i class="fa fa-clock-o"></i> 24 December 2022
+                            </h6>
+                        </a>
+
+                        <img
+                            class="img-project"
+                            src="image/image-project/image-project-2.jpg"
+                            align="center"
+                            alt="form-login"
+                        />
+                        <br />
+                    </div>
+
+                    <!-- PROJECT 1 - JADWAL MATA PELAJARAN -->
+                    <div class="bg-project">
+                        <a
+                            href="https://jadwal-mata-pelajaran.vercel.app/"
+                            target="_blank"
+                        >
+                            <h3 class="text-project">Jadwal Mata Pelajaran</h3>
+                            <h6 class="font-univ">
+                                <i class="fa fa-clock-o"></i> 18 September 2022
+                            </h6>
+                        </a>
+
+                        <img
+                            class="img-project"
+                            src="image/image-project/image-project-1.jpg"
+                            align="center"
+                            alt="jadwal-mata-pelajaran"
+                        />
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div id="certificate"></div>
+        </section>
+
+        <section class="certificate">
+            <div class="section-content">
+                <div class="animation-text1">
+                    <h1 class="certificate-text">CERTIFICATE</h1>
+                </div>
+
+                <div class="section-project">
+                    <div class="bg-certification">
+                        <br />
+                        <img
+                            class="img-certification"
+                            src="image/image-certificate/certificate-5.jpg"
+                            align="center"
+                            alt="belajar-dasar-pemrograman-web"
+                        />
+                        <a
+                            href="https://dicoding.com/certificates/N9ZOY68Q0PG5"
+                        >
+                            <h3 class="text-certification">
+                                Belajar Dasar Pemrograman Web
+                            </h3>
+                        </a>
+                    </div>
+
+                    <div class="bg-certification">
+                        <br />
+                        <img
+                            class="img-certification"
+                            src="image/image-certificate/certificate-4.jpg"
+                            align="center"
+                            alt="memulai-pemrograman-dengan-python"
+                        />
+                        <a
+                            href="https://dicoding.com/certificates/EYX4V5EGWZDL"
+                        >
+                            <h3 class="text-certification">
+                                Memulai Pemrograman dengan Python
+                            </h3>
+                        </a>
+                    </div>
+
+                    <div class="bg-certification">
+                        <br />
+                        <img
+                            class="img-certification"
+                            src="image/image-certificate/certificate-3.jpg"
+                            align="center"
+                            alt="belajar-dasar-structured-query-language-(sql)"
+                        />
+                        <a
+                            href="https://dicoding.com/certificates/QLZ97G3GMP5D"
+                        >
+                            <h3 class="text-certification">
+                                Belajar Dasar Structured Query Language (SQL)
+                            </h3>
+                        </a>
+                    </div>
+
+                    <div class="bg-certification">
+                        <br />
+                        <img
+                            class="img-certification"
+                            src="image/image-certificate/certificate-2.jpg"
+                            align="center"
+                            alt="belajar-dasar-visualisasi-data"
+                        />
+                        <a
+                            href="https://dicoding.com/certificates/53XEO9JY0ZRN"
+                        >
+                            <h3 class="text-certification">
+                                Belajar Dasar Visualisasi Data
+                            </h3>
+                        </a>
+                    </div>
+
+                    <div class="bg-certification">
+                        <br />
+                        <img
+                            class="img-certification"
+                            src="image/image-certificate/certificate-1.jpg"
+                            align="center"
+                            alt="belajar-dasar-ai"
+                        />
+                        <a
+                            href="https://dicoding.com/certificates/N9ZOMQEGDPG5"
+                        >
+                            <h3 class="text-certification">Belajar Dasar AI</h3>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer id="contact">
+            <div class="footer-content">
+                <div class="animation-text1">
+                    <h1>CONTACT</h1>
+                </div>
+
+                <div class="animation-button">
+                    <ul class="socials">
+                        <li>
+                            <a href="https://linkedin.com/in/nurhidayat-yaya"
+                                ><i class="fa-brands fa-linkedin-in"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://wa.me/6287816244448"
+                                ><i class="fab fa-whatsapp"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://tiktok.com/@yayaaa0712"
+                                ><i class="fab fa-tiktok"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://instagram.com/yayaa7._"
+                                ><i class="fab fa-instagram"></i
+                            ></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/YayaProject"
+                                ><i class="fab fa-github"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>copyright &copy; 2024 Nur Hidayat</p>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="script.js" type="text/javascript"></script>
+    </body>
 </html>
