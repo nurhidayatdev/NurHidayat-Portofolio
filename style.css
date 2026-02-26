@@ -545,13 +545,15 @@ section {
 }
 .bg-project {
   text-align: center;
-  height: 420px;
+  height: auto;
+  min-height: 420px;
   width: 320px;
   background-color: #181535;
   margin: 10px;
   border-radius: 20px;
   background-size: 100% 100%;
   margin-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 /* SECTION CERTIFICATION */
@@ -595,17 +597,47 @@ section {
   }
 }
 
+.desc-project {
+    font-size: 13px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    line-height: 1.5;
+    text-align: justify;
+    color: #fff;
+    font-family: "Ubuntu", Sans-Serif;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 6px;
+    padding: 0 15px;
+    margin-top: 10px;
+}
+
+.project-tech span {
+    background: rgba(255, 255, 255, 0.1);
+    color: DodgerBlue;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 @media (max-width: 320px) {
-  .text-project {
-    font-size: 15px;
-  }
-  .img-project {
-    width: 70%;
-  }
-  .bg-project {
-    height: 270px;
-    width: 270px;
-  }
+    .text-project {
+        font-size: 15px;
+    }
+    .img-project {
+        width: 70%;
+    }
+    .bg-project {
+        height: auto;
+        padding-bottom: 15px;
+        width: 270px;
+    }
 }
 
 /*-----FOOTER-----*/
@@ -740,4 +772,99 @@ footer {
 }
 .tech-item i {
   font-size: 20px;
+}
+/*-----TECH STACK SECTION-----*/
+
+.tech-stack-section {
+    background-color: #fff;
+    margin: 0;
+    padding: 4rem 2rem;
+}
+
+.tech-stack-header {
+    color: #181535 !important;
+    margin-bottom: 2rem !important;
+}
+
+.tech-stack-section .tech-item {
+    background: rgba(24, 21, 53, 0.05);
+    border: 1px solid rgba(24, 21, 53, 0.1);
+    color: #181535;
+}
+
+.tech-stack-section .tech-item:hover {
+    background: #181535;
+    color: #fff;
+    border-color: #181535;
+}
+
+/*-----GALLERY SECTION-----*/
+
+.gallery {
+    background-color: #181535;
+    margin: 0;
+    padding: 4rem 2rem;
+}
+
+.gallery-text {
+    color: #fff !important;
+    margin-bottom: 2rem !important;
+}
+
+.bg-gallery {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    width: 340px;
+    aspect-ratio: 16 / 9;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+.bg-gallery:hover {
+    transform: translateY(-8px);
+}
+
+.img-gallery {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.bg-gallery:hover .img-gallery {
+    transform: scale(1.08);
+}
+
+.gallery-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 20px 10px;
+    background: linear-gradient(transparent, rgba(10, 8, 25, 0.95));
+    color: white;
+    text-align: left;
+}
+
+.gallery-info h3 {
+    font-size: 1rem;
+    margin-bottom: 2px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.gallery-info p {
+    font-size: 0.8rem;
+    opacity: 0.9;
+    margin-bottom: 0px !important;
+}
+
+@media (max-width: 690px) {
+    .bg-gallery {
+        width: 100%;
+        max-width: 380px;
+        margin: 10px auto;
+    }
 }

@@ -10,9 +10,6 @@ $(document).ready(function () {
   });
 });
 
-
-
-
 const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
